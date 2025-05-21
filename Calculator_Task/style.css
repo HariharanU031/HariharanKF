@@ -1,0 +1,33 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: plum;
+}
+.inner-container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: blueviolet;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+}
+.button-row{
+    display: inline-flex;
+    gap: 10px;
+}
+.btn{
+    padding: 20px;
+    outline: black;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1px;
+    text-shadow: 8px 8px 15px rgba(0, 0, 0, 0.8);
+}
