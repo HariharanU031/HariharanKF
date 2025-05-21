@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(172, 243, 243);
+}
+
+.form1 {
+    background-color: aqua;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+td{
+  
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+.but{
+    border-radius:30px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    border-color: darkgray;
+    text-shadow: 2px red;
+}

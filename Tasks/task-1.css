@@ -1,0 +1,44 @@
+.body1 {
+    background-size: cover;
+}
+
+.body1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(login.png);
+    background-size: cover;
+    opacity: 0.8; 
+    z-index: -1;
+}
+
+.form1 {
+    width: 30%;
+    height: 500px;
+    margin:50px ;
+    color: white;
+    background-color: rgb(46, 44, 108);
+    padding: 10px;
+    border-radius: 5%;
+}
+
+td {
+    padding: 15px;
+    color: white;
+
+}
+.but{
+    border-radius:20px;
+    border: none;
+    padding: 10px;
+    margin-right: 20px;
+}
+.but:hover{
+    background-color: gray;
+}
+input{
+    border-radius: 20px;
+}
